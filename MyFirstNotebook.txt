@@ -1,0 +1,7 @@
+import pandas as pd ##import pandas, its used for data analysis
+moviecsv = pd.read_csv('https://raw.githubusercontent.com/Dayobam/Data-Literacy-Azure-Databrick-Essentials/main/movies.csv')
+print("Displaying my First Databricks Table")
+display(moviecsv)
+
+##how long is the movie csv length
+len(moviecsv)
